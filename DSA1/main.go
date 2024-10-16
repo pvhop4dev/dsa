@@ -3,8 +3,13 @@ package main
 import (
 	"dsa/dsa1/leetcode"
 	"fmt"
+	"time"
 )
 
 func main() {
-	fmt.Println(leetcode.MaxProfit2([]int{1, 7, 3, 6, 5, 6, 10, 0}))
+	now := time.Now()
+
+	fmt.Println(leetcode.Fibonacci(45))
+
+	fmt.Println(time.Since(now))
 }
