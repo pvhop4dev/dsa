@@ -9,7 +9,7 @@ import (
 func main() {
 	now := time.Now()
 
-	fmt.Println(leetcode.Fibonacci(45))
+	fmt.Println(leetcode.IsPalindrome("A man, a plan, a canal: Panama"))
 
 	fmt.Println(time.Since(now))
 }
