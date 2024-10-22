@@ -9,7 +9,7 @@ import (
 func main() {
 	now := time.Now()
 
-	fmt.Println(leetcode.LongestCommonPrefix([]string{"flower","flow","flight"}))
-
+	fmt.Println(leetcode.IsPowerOfThree(84))
+	fmt.Println(5 % 3)
 	fmt.Println(time.Since(now))
 }
